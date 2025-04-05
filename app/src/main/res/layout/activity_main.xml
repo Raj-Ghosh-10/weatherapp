@@ -72,11 +72,12 @@
         android:id="@+id/maxtemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="44dp"
         android:text="MAX 00:00 C"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/temp" />
 
@@ -87,6 +88,7 @@
         android:layout_marginTop="16dp"
         android:text="MIN 00:00 C"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/maxtemp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/maxtemp"
@@ -98,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="SUNNY"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/dayname"
         app:layout_constraintHorizontal_bias="0.276"
@@ -110,6 +112,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TUESDAY"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.475"
@@ -123,6 +127,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="4 APRIL,2025"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/dayname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/dayname"
@@ -165,16 +171,21 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:padding="2dp"
+                    android:text="00 %"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="humidity"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -186,16 +197,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="0.00 m/s"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Wind speed"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -207,16 +222,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Sunny"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Condition"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -228,16 +247,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="00:00"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Sunset"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -249,16 +272,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="00:00"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Sunrise"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -271,16 +298,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="0000 hPa"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Sea"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
