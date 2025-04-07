@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WeatherInfoBox">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bgshape</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="WeatherInfoValue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WeatherInfoLabel" parent="WeatherInfoValue" />
+
+</resources>
